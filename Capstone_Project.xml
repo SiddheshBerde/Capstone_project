@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Capstone Project Validation Report">
+    <test name="Aadhar Details Validation">
+        <classes>
+            <class name="Capstone_Project.Aadhar_Validation" />
+        </classes>
+    </test>
+    <test name="Credit Details Validation">
+        <classes>
+            <class name="Capstone_Project.Credit_Card_Validation" />
+        </classes>
+    </test>
+    </suite>
