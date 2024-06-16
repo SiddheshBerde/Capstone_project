@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Capstone Project">
+
+<!--        <test name="BANK ACCOUNT VALIDATION" >-->
+<!--            <parameter name="posturl" value="https://reqres.in/api/users"/>-->
+<!--            <classes>-->
+<!--                <class name="Stepdef.CreateNewAccount" />-->
+<!--            </classes>-->
+<!--        </test>-->
+
+
+    <test name="CREDIT CARD VALIDATION" >
+        <classes>
+            <class name="Stepdef.CreateCreditCard" />
+        </classes>
+    </test>
+
+</suite>
